@@ -33,6 +33,6 @@ steps:
   inputs:
     azureSubscription: 'RMDev (c00d16c7-6c1f-4c03-9be1-6934a4c49682)'
     appType: 'webApp'
-    appName: '<Name of web app>'
+    appName: 'vvdotnetcore-mvc'
     package: '$(System.ArtifactsDirectory)/**/*.zip'
     deploymentMethod: 'auto'
